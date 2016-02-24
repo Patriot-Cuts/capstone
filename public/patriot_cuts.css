@@ -1,0 +1,79 @@
+/*--------------------------------------------------------
+Header/nav
+---------------------------------------------------------*/
+
+nav {
+	text-align: right;
+	color: white;
+	}
+.header-text {
+	color: white;
+	margin: 10px;
+	position: relative;
+	top: 20px;
+	}
+/*------------------------------------------------------
+                  Hours Modal
+------------------------------------------------------*/
+.modal-title {
+	color: red;
+	text-shadow: 2px 2px purple;
+	text-decoration: underline;
+	font-weight: bolder;
+	text-align: center;
+	font-size: 30px;
+	}
+.modal-content {
+	background-color: black;
+	color: white;
+	}
+.th-header {
+	font-weight: 700;
+	text-decoration: underline;
+	text-size: 25px;
+	}
+/*-------------------------------------------------------------------------------------------
+                    Contact Us modal
+---------------------------------------------------------------------------------------------*/
+.modal-content {
+	background: black;
+	color: white;
+	}
+.contact-title {
+	color: red;
+	text-decoration: underline;
+	text-shadow: 2px 2px purple;
+	text-align: center;
+	margin: 30px;
+	}
+#contact-name {
+	position: relative;
+	left: 0px
+	}
+#contact-email {
+	position: relative;
+	left: 0px;
+	}
+#contact-subject {
+	position: relative;
+	left: 0px;
+	}
+#contact-cc {
+	position: relative;
+	left: 0px;
+	}
+.contact-cc {
+	position: relative;
+	left: 0px;
+	}
+.contact-button {
+	position: relative;
+	left: 0px;
+	}
+.close {
+	text-shadow: 2px 2px white;
+	}
+.contact-input {
+	color: black;
+	}
+/*--------------------------------------------------------------------------------------------------------------------------------------*/

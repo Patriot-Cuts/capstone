@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+<style>
+.modal-title {
+color: red;
+text-shadow: 2px 2px purple;
+text-decoration: underline;
+font-weight: bolder;
+text-align: center;
+font-size: 30px;
+}
+.modal-content {
+background-color: black;
+color: white;
+}
+.th-header {
+font-weight: 700;
+text-decoration: underline;
+text-size: 25px;
+}
+
+</style>
+</head>
+<body>
+<div class="container">
+  <h2>Modal Example</h2>
+  <!-- Trigger the modal with a button -->
+  <button type="button" class="btn btn-link btn-sm" data-toggle="modal" data-target="#myModal">HOURS</button>
+  <!-- Modal -->
+  <div class="modal fade" id="myModal" role="dialog">
+    <div class="modal-dialog">
+    
+      <!-- Modal content-->
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal">&times</button>
+          <h4 class="modal-title">Hours of Operation:</h4>
+        </div>
+ <div class="table-responsive">          
+  <table class="table">
+    <thead>
+      <tr class="th-header">
+        <th>Day</th>
+        <th>Open</th>
+        <th>Close</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>Monday</td>
+        <td>10:00 am</td>
+        <td>7:00 pm</td>
+      </tr>
+      <tr>
+        <td>Tuesday</td>
+        <td>10:00 am</td>
+        <td>7:00 pm</td>
+      </tr>
+<tr>
+        <td>Wednesday</td>
+        <td>10:00 am</td>
+        <td>7:00 pm</td>
+      </tr>
+<tr>
+        <td>Thursday</td>
+        <td>10:00 am</td>
+        <td>7:00 pm</td>
+      </tr>
+<tr>
+        <td>Friday</td>
+        <td>10:00 am</td>
+        <td>7:00 pm</td>
+      </tr>
+<tr>
+        <td>Saturday</td>
+        <td>10:00 am</td>
+        <td>6:00 pm</td>
+      </tr>
+<tr>
+        <td>Sunday</td>
+        <td>11:00 am</td>
+        <td>5:00 pm</td>
+      </tr>
+    </tbody>
+  </table>
+<div class="modal-footer">
+          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        </div>
+  </div>
+</div>
+
+
+              </div>
+      
+    </div>
+  </div>
+  
+</div>
+</body>
+</html>

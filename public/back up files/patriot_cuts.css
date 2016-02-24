@@ -18,6 +18,23 @@ nav {
 	.location {
 		color: blue;
 	}
+	/*.btn-link {
+		background-color: red;
+	}*/
+	/* unvisited link */
+.btn-link:link {
+    color: red;
+}
+
+/* visited link */
+.btn-link:visited {
+    color: white;
+}
+
+/* mouse over link */
+.btn-link:hover {
+    color: blue;
+}
 
 /*------------------------------------------------------
                   Hours Modal
@@ -85,18 +102,3 @@ nav {
 	color: black;
 	}
 /*--------------------------------------------------------------------------------------------------------------------------------------*/
-            /*carousel*/
- /*------------------------------------------------------*/
-
-.carousel-inner > .item > img,
-	  .carousel-inner > .item > a > img {
-	      width: 100%;
-	      margin: auto;
-	  }
-
-
-
-
-
-
-

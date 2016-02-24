@@ -1,0 +1,109 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Patriot Cuts</title>
+  <meta charset="utf-8">
+  <meta lang="en">
+  <meta name="viewport" content="width=device-width, initial-scale=0">
+  <!-- <link rel="stylesheet" type="text/css" href="http://cssreset.com/normalize.css"> -->
+  <!-- <link rel="stylesheet" type="text/css" href="/capstone/patriot_cuts.css"> -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+  <script src="//code.jquery.com/jquery-1.12.0.min.js"></script>
+  
+  </script>
+  <style type="text/css">
+
+.modal-content {
+background: black;
+color: white;
+}
+.contact-title {
+color: red;
+text-decoration: underline;
+text-shadow: 2px 2px purple;
+text-align: center;
+margin: 30px;
+}
+#contact-subject {
+position: relative;
+left: 14px;
+}
+#contact-email {
+position: relative;
+left: 22px;
+}
+#contact-name {
+position: relative;
+left: 21px
+}
+#contact-cc {
+position: relative;
+left: 65px;
+}
+.contact-cc {
+position: relative;
+left: 65px;
+
+}
+.contact-button {
+position: relative;
+left: 210px;
+}
+.close {
+text-shadow: 2px 2px white;
+}
+.contact-input {
+color: black;
+}
+</style>
+</head>
+<body>
+
+<div class="container">
+  <h2>Contact Modal</h2>
+  <!-- Trigger the modal with a button -->
+  <button type="button" class="btn btn-link btn-sm" data-toggle="modal" data-target="#contactmodal">Contact Us</button>
+
+  <!-- Modal -->
+  <div class="modal fade" id="contactmodal" role="dialog">
+    <div class="modal-dialog">
+    
+      <!-- Modal content-->
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal">&times</button>
+          <div class="contact-content" style="height: 328px;">
+  
+            <h1 class="contact-title">Send us a message:</h1>
+            <div class="contact-loading"></div>
+            <div class="contact-message"></div>
+            <form action="#">
+              <label for="contact-name">*Name:</label>
+              <input name="name" tabindex="1001" class="contact-input" id="contact-name" type="text">
+              <br>
+              <label for="contact-email">*Email:</label>
+              <input name="email" tabindex="1002" class="contact-input" id="contact-email" type="text">
+              <br>
+              <label for="contact-subject">Subject:</label>
+              <input name="subject" tabindex="1003" class="contact-input" id="contact-subject" type="text" value="">
+              <br>
+              <label for="contact-message">*Message:</label>
+              <textarea name="message" tabindex="1004" class="contact-input" id="contact-message" rows="4" cols="40"></textarea>
+              <br>
+              <label>&nbsp;</label>
+              <input name="cc" tabindex="1005" id="contact-cc" type="checkbox" value="1"> <span class="contact-cc">Send me a copy</span>  
+              <br>
+              <label>&nbsp;</label>
+              <button tabindex="1006" class="contact-send contact-button" type="submit">Send</button>
+              <button tabindex="1007" class="contact-cancel contact-button simplemodal-close" type="submit">Cancel</button>
+              <br>
+              <input name="token" type="hidden" value="">
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+</html>

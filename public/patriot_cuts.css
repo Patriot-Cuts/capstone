@@ -102,6 +102,14 @@ nav {
 	color: black;
 	}
 /*--------------------------------*/
+         /*Carousel*/
+/*---------------------------------*/
+	.carousel-inner > .item > img,
+	  .carousel-inner > .item > a > img {
+	      width: 100%;
+	      margin: auto;
+	  }
+/*--------------------------------*/
           /*Services Well*/
 /*--------------------------------*/
 .services-section {

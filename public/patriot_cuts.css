@@ -18,6 +18,23 @@ nav {
 	.location {
 		color: blue;
 	}
+	/*.btn-link {
+		background-color: red;
+	}*/
+	/* unvisited link */
+.btn-link:link {
+    color: red;
+}
+
+/* visited link */
+.btn-link:visited {
+    color: white;
+}
+
+/* mouse over link */
+.btn-link:hover {
+    color: blue;
+}
 
 /*------------------------------------------------------
                   Hours Modal
@@ -84,19 +101,34 @@ nav {
 .contact-input {
 	color: black;
 	}
-/*--------------------------------------------------------------------------------------------------------------------------------------*/
-            /*carousel*/
- /*------------------------------------------------------*/
+/*--------------------------------*/
+          /*Services Well*/
+/*--------------------------------*/
+.services-section {
+	background-color: blue;
+}
 
-.carousel-inner > .item > img,
-	  .carousel-inner > .item > a > img {
-	      width: 100%;
-	      margin: auto;
-	  }
+/*.panel-heading {
+	background-color: red;
+}*/
 
+.services-well {
+	margin: 2rem;
+	font-size: 5rem;
+}
 
+.panel-text {
+	color: #ff1a1a;
+	text-align: center;
+	font-weight: bolder;
+	font-family: 
+}
 
-
+.price {
+	color: blue;
+	text-align: center;
+	font-family: 
+}
 
 
 

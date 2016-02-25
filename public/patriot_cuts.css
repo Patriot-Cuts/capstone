@@ -123,9 +123,21 @@ nav {
 .services-well {
 	margin: 2rem;
 	font-size: 5rem;
+	border-radius: 50%;
 }
 
-.panel-text {
+.panel {
+	margin: 2rem;
+}
+.well-text {
+	color: #ff1a1a;
+	text-align: center;
+	font-weight: bolder;
+	text-shadow: 2px 2px blue;
+	font-family: 
+}
+
+.services-text {
 	color: #ff1a1a;
 	text-align: center;
 	font-weight: bolder;
@@ -137,6 +149,35 @@ nav {
 	text-align: center;
 	font-family: 
 }
+
+.services-footer {
+	margin: 2rem;
+	color: black;
+	font-size: 3rem;
+	text-align: center;
+}
+/*--------------------------------*/
+       /*Map*/
+/*---------------------------------*/
+ #map-canvas {
+      width: 100% auto;
+      height: 675px;
+      padding-right: 10px;
+    }
+    #content {
+      width: 100px auto;
+      height: 75px auto;
+      font-size: 11px;
+      border-radius: 50px;
+      text-align: center;
+    }
+    #siteNotice {
+      align-items: center;
+    }
+    img {
+      height: 25%;
+    }
+/*--------------------------------------*/
 
 
 

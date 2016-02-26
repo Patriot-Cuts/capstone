@@ -21,7 +21,7 @@
       align-items: center;
     }
 
-    img {
+    #bodyContent {
       height: 25%;
     }
   </style>
@@ -36,15 +36,6 @@
 
       var address = "Address: 3246 Broadway St, San Antonio, TX 78209";
       var geocoder = new google.maps.Geocoder();
-      var mapOptions = {
-        zoom: 17,
-        center: {
-          lat: 29.458638,
-          lng: -98.469354
-        },
-        mapTypeId: google.maps.MapTypeId.ROADMAP
-      };
-      var map = new google.maps.Map(document.getElementById("map-canvas"), mapOptions);
       geocoder.geocode({
         "address": address
       }, function(results, status) {
@@ -82,6 +73,15 @@
         }
       });
 
+      var mapOptions = {
+        zoom: 17,
+        center: {
+          lat: 29.458638,
+          lng: -98.469354
+        },
+        mapTypeId: google.maps.MapTypeId.ROADMAP
+      };
+      var map = new google.maps.Map(document.getElementById("map-canvas"), mapOptions);
 
     })();
   </script>

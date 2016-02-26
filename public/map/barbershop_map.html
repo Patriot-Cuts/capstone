@@ -29,19 +29,28 @@
 
 <body>
   <div id="map-canvas"></div>
-  <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCGUPMgw96CJ92ps0zOrB7kw8cH_tcCnVs"></script>
+  <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyArL_ywjrethw6XIJQRbxoWHs8LHN2aeYY"></script>
   <script type="text/javascript">
     (function() {
       "use strict";
 
       var address = "Address: 3246 Broadway St, San Antonio, TX 78209";
       var geocoder = new google.maps.Geocoder();
+      var mapOptions = {
+        zoom: 17,
+        center: {
+          lat: 29.458638,
+          lng: -98.469354
+        },
+        mapTypeId: google.maps.MapTypeId.ROADMAP
+      };
+      var map = new google.maps.Map(document.getElementById("map-canvas"), mapOptions);
       geocoder.geocode({
         "address": address
       }, function(results, status) {
         if (status == google.maps.GeocoderStatus.OK) {
           console.log(results);
-          map.setCenter(mapOptions);
+          map.setCenter(mapOptions.center);
           var marker = new google.maps.Marker({
             "position": results[0].geometry.location,
             "map": map,
@@ -73,15 +82,7 @@
         }
       });
 
-      var mapOptions = {
-        zoom: 17,
-        center: {
-          lat: 29.458638,
-          lng: -98.469354
-        },
-        mapTypeId: google.maps.MapTypeId.ROADMAP
-      };
-      var map = new google.maps.Map(document.getElementById("map-canvas"), mapOptions);
+
     })();
   </script>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>

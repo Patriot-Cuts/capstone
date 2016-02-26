@@ -1,17 +1,43 @@
 /*--------------------------------------------------------
 Header/nav
 ---------------------------------------------------------*/
-
+body {
+	background-color: #444B51;
+}
 nav {
 	text-align: right;
 	color: white;
 	}
 .header-text {
-	color: white;
+	font-size: 20px;
 	margin: 10px;
 	position: relative;
 	top: 20px;
 	}
+	.services {
+		color: white;
+	}
+	.location {
+		color: blue;
+	}
+	/*.btn-link {
+		background-color: red;
+	}*/
+	/* unvisited link */
+.btn-link:link {
+    color: red;
+}
+
+/* visited link */
+.btn-link:visited {
+    color: white;
+}
+
+/* mouse over link */
+.btn-link:hover {
+    color: blue;
+}
+
 /*------------------------------------------------------
                   Hours Modal
 ------------------------------------------------------*/
@@ -26,6 +52,7 @@ nav {
 .modal-content {
 	background-color: black;
 	color: white;
+	text-align: left;
 	}
 .th-header {
 	font-weight: 700;
@@ -76,4 +103,83 @@ nav {
 .contact-input {
 	color: black;
 	}
-/*--------------------------------------------------------------------------------------------------------------------------------------*/
+/*--------------------------------*/
+         /*Carousel*/
+/*---------------------------------*/
+	.carousel-inner > .item > img,
+	  .carousel-inner > .item > a > img {
+	      width: 100%;
+	      margin: auto;
+	  }
+/*--------------------------------*/
+          /*Services Well*/
+/*--------------------------------*/
+.services-section {
+	background-color: blue;
+}
+
+/*.panel-heading {
+	background-color: red;
+}*/
+
+.services-well {
+	margin: 2rem;
+	font-size: 5rem;
+	border-radius: 50%;
+}
+
+.panel {
+	margin: 2rem;
+}
+.well-text {
+	color: #ff1a1a;
+	text-align: center;
+	font-weight: bolder;
+	text-shadow: 2px 2px blue;
+	font-family: 
+}
+
+.services-text {
+	color: #ff1a1a;
+	text-align: center;
+	font-weight: bolder;
+	font-family: 
+}
+
+.price {
+	color: blue;
+	text-align: center;
+	font-family: 
+}
+
+.services-footer {
+	margin: 2rem;
+	color: black;
+	font-size: 3rem;
+	text-align: center;
+}
+/*--------------------------------*/
+       /*Map*/
+/*---------------------------------*/
+ #map-canvas {
+      width: 100% auto;
+      height: 675px;
+      padding-right: 10px;
+    }
+    #content {
+      width: 100px auto;
+      height: 75px auto;
+      font-size: 11px;
+      border-radius: 50px;
+      text-align: center;
+    }
+    #siteNotice {
+      align-items: center;
+    }
+    img {
+      height: 25%;
+    }
+/*--------------------------------------*/
+
+
+

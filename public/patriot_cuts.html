@@ -204,8 +204,9 @@
     </a>
   </div>
 </div>
-<hr>
 <!-- Carousel END-->
+<hr>
+<!-- Begin Services Section-->
 	<section class="services-section">
 		<!-- Services Well -->
 		<div class="row">
@@ -271,6 +272,7 @@
 						</div>
 					</div>
 				</div>
+		<!-- services panels row 2 -->
 				<div class="row">
     			 	<div class="col-sm-3 col-md-3 col-lg-3">
     			 		<div class="panel panel-danger men-cuts">
@@ -313,34 +315,90 @@
 					</div>
 					<div class="col-sm-3 col-md-3 col-lg-3">
     			 		<div class="panel panel-danger men-cuts">
-  						<div class="panel-heading panel-text">Accepted Forms of Payment</div>
+  						<div class="panel-heading panel-text">Head Shave</div>
   						<div class="panel-body">
 								<div class="services payment">
 									<p></p>
 									<p></p></div>
 							<footer>
-    							<p class="price panel-text"></p>
+    							<p class="price panel-text">&#36;3.&#186;&#186;</p>
         					</footer>
 						</div>
 						</div>
 					</div>
+				</div>
+
+				<div class="row">
+    			 	<div class="col-sm-3 col-md-3 col-lg-3">
+    			 		<div class="panel panel-danger men-cuts hidden">
+  						<div class="panel-heading panel-text">Fade</div>
+  						<div class="panel-body">
+								<div class="services brow-wax">
+									<p></p>
+									<p></p></div>
+							<footer>
+    							<p class="price panel-text">&#36;10.&#186;&#186;</p>
+        					</footer>
+						</div>
+						</div>
+					</div>
+					<div class="col-sm-3 col-md-3 col-lg-3">
+    			 		<div class="panel panel-danger men-cuts">
+  						<div class="panel-heading panel-text">Whatever's left</div>
+  						<div class="panel-body">
+								<div class="services brow-wax">
+									<p></p>
+									<p></p></div>
+							<footer>
+    							<p class="price panel-text">&#36;5.&#186;&#186;</p>
+        					</footer>
+						</div>
+						</div>
+					</div>
+					<div class="col-sm-3 col-md-3 col-lg-3">
+    			 		<div class="panel panel-danger men-cuts">
+  						<div class="panel-heading panel-text">Fade</div>
+  						<div class="panel-body">
+								<div class="services brow-wax">
+									<p></p>
+									<p></p></div>
+							<footer>
+    							<p class="price panel-text">&#36;10.&#186;&#186;</p>
+        					</footer>
+						</div>
+						</div>
+					</div>
+					
+				</div>
+
+
+
+
 		<div class="row">
     		<div class="col-sm-8 col-md-4 col-lg-12">
-    			<div class="well services-footer">HOURS: Monday thru Friday 10 - 7, Saturday 10 - 6, Sunday 11 - 5</div>
+    			<!-- <div class="well services-footer">HOURS: Monday thru Friday 10 - 7, Saturday 10 - 6, Sunday 11 - 5</div> -->
 	  			<a href="#top" class="return-top">Back to Top</a> 
 			</div>
-
 	</section>
+	<!--End Services Section-->
 	<hr>
-<section>
-	<div id="map-canvas"></div>
-	<a id="location"></a>
-	<a href="#top" class="return-top">Back to Top</a> 
-</section>
+	<!--Begin Location Section-->
+	<section>
+		<div class="shop-info">
+			<p class="shop-address pcbs"><span class="patriot">Patriot</span> Cuts <span class="bs">Barber Shop</span></p>
+			<p class="shop-address">3246 Broadway Street</p>
+			<p class="shop-address">San Antonio, TX., 78209 </p>
+			<p class="phone-number">phone: (210) 822-0780</p>
+			<p class="loc-hours">hours: M - F, 10am - 7pm; Sat, 10am - 6pm; Sun, 11am - 5pm</p>
+		</div>
+		<div id="map-canvas"></div>
+		<a id="location"></a>
+		<a href="#top" class="return-top">Back to Top</a> 
+	</section>
   <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCGUPMgw96CJ92ps0zOrB7kw8cH_tcCnVs"></script>
   <script type="text/javascript">
-    (function() {
       "use strict";
+    (function() {
       var address = "Address: 3246 Broadway St, San Antonio, TX 78209";
       var geocoder = new google.maps.Geocoder();
       geocoder.geocode({

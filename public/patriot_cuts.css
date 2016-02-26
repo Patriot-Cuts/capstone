@@ -114,12 +114,8 @@ nav {
 /*--------------------------------*/
           /*Services Well*/
 /*--------------------------------*/
-.services-section {
+/*.services-section {
 	background-color: blue;
-}
-
-/*.panel-heading {
-	background-color: red;
 }*/
 
 .services-well {
@@ -130,7 +126,14 @@ nav {
 
 .panel {
 	margin: 2rem;
+	height: 25rem;
+	width: 23rem;
 }
+
+.hidden {
+    visibility: hidden;
+}
+
 .well-text {
 	color: #ff1a1a;
 	text-align: center;
@@ -178,6 +181,43 @@ nav {
     }
     img {
       height: 25%;
+    }
+
+    .pcbs {
+    	text-decoration: underline;
+    	font-size: 3rem;
+    	font-weight: bolder;
+    	color: white;
+    	text-shadow: 2px 2px black;
+    }
+
+    .patriot {
+    	color: red;
+    }
+
+    .bs {
+    	color: blue;
+    }
+
+    .shop-address {
+    	font-size: 3rem;
+    	font-weight: bolder;
+    	color: white;
+    	text-shadow: 2px 2px black;
+    }
+
+    .phone-number {
+    	font-size: 3rem;
+    	font-weight: bolder;
+    	color: #ccccff;
+    	text-shadow: 2px 2px black;
+    }
+
+    .loc-hours {
+    	font-size: 2rem;
+    	font-weight: 500;
+    	color: #ccccff;
+    	text-shadow: 2px 2px black;
     }
 /*--------------------------------------*/
 

@@ -246,9 +246,10 @@ service panel backgrounds
        /*Map*/
 /*---------------------------------*/
  #map-canvas {
-      width: 100% auto;
-      height: 675px;
+      width: 40%;
+      height: 400px;
       padding-right: 10px;
+      float: right;
     }
     #content {
       width: 100px auto;

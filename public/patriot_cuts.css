@@ -114,9 +114,13 @@ nav {
 /*--------------------------------*/
           /*Services Well*/
 /*--------------------------------*/
-/*.services-section {
-	background-color: blue;
-}*/
+.well-text {
+	color: #ff1a1a;
+	text-align: center;
+	font-weight: bolder;
+	text-shadow: 2px 2px blue;
+	font-family: 
+}
 
 .services-well {
 	margin: 2rem;
@@ -124,6 +128,17 @@ nav {
 	border-radius: 50%;
 }
 
+/*------------------------------
+     service panels
+------------------------------*/
+
+.panel-text {
+	color: white;
+	text-align: center;
+	font-weight: bold;
+	text-shadow: 1px 1px black;
+
+}
 .panel {
 	margin: 2rem;
 	height: 25rem;
@@ -134,13 +149,6 @@ nav {
     visibility: hidden;
 }
 
-.well-text {
-	color: #ff1a1a;
-	text-align: center;
-	font-weight: bolder;
-	text-shadow: 2px 2px blue;
-	font-family: 
-}
 
 .services-text {
 	color: #ff1a1a;
@@ -150,17 +158,36 @@ nav {
 }
 
 .price {
-	color: blue;
+	color: green;
 	text-align: center;
-	font-family: 
+	font-family: "serif";
+	text-shadow: 1px 1px black;
+	font-size: 3rem;
+	margin: 2rem;
+	position: absolute;
+	bottom: -1rem;
+
 }
 
-.services-footer {
-	margin: 2rem;
-	color: black;
-	font-size: 3rem;
-	text-align: center;
+.panel-footer {
+	height: 6rem;
+	width: 23rem;
+	position: absolute;
+	left: 3.5rem;
+	bottom: 1rem;
 }
+
+footer {
+    display: none;
+}
+
+.panel-body:hover>footer {
+    display: block;
+}
+
+/*------------------------------
+service panel backgrounds
+------------------------------*/
 /*--------------------------------*/
        /*Map*/
 /*---------------------------------*/

@@ -176,6 +176,10 @@ nav {
 	bottom: 1rem;
 }
 
+.panel-body {
+	height: 83%;
+}
+
 footer {
     display: none;
 }
@@ -187,6 +191,56 @@ footer {
 /*------------------------------
 service panel backgrounds
 ------------------------------*/
+
+.male-cuts {
+	background-image: url("img/mens-cut.jpeg");
+	background-size: cover;
+}
+
+.womans-cuts {
+	background-image: url("img/scissors.jpeg");
+	background-size: cover;
+}
+
+.shampoo {
+	background-image: url("img/shampoo.jpeg");
+	background-size: cover;
+}
+
+.hair-dye {
+	background-image: url("img/colorbowl.jpeg");
+	background-size: cover;
+}
+
+.brow-wax {
+	background-image: url("img/brow_wax.jpeg");
+	background-size: cover;
+}
+
+.beard-trim {
+	background-image: url("img/beard2.jpeg");
+	background-size: cover;
+}
+
+.stache-trim {
+	background-image: url("img/stache.jpeg");
+	background-size: cover;
+}
+
+.head-shave {
+	background-image: url("img/head_shave.jpeg");
+	background-size: cover;
+}
+
+.razor-fade {
+	background-image: url("img/razor_fade.jpeg");
+	background-size: cover;
+}
+
+.beard-shave {
+	background-image: url("img/beard_shave.jpeg");
+	background-size: cover;
+}
 /*--------------------------------*/
        /*Map*/
 /*---------------------------------*/

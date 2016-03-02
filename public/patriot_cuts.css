@@ -8,7 +8,7 @@ nav {
 	text-align: right;
 	color: white;
 	}
-.header-text {
+/*.header-text {
 	font-size: 20px;
 	margin: 10px;
 	position: relative;
@@ -19,7 +19,7 @@ nav {
 	}
 	.location {
 		color: blue;
-	}
+	}*/
 	/*.btn-link {
 		background-color: red;
 	}*/
@@ -114,13 +114,13 @@ nav {
 /*--------------------------------*/
           /*Services Well*/
 /*--------------------------------*/
-.services-section {
-	background-color: blue;
+.well-text {
+	color: #ff1a1a;
+	text-align: center;
+	font-weight: bolder;
+	text-shadow: 2px 2px blue;
+	font-family: 
 }
-
-/*.panel-heading {
-	background-color: red;
-}*/
 
 .services-well {
 	margin: 2rem;
@@ -128,15 +128,25 @@ nav {
 	border-radius: 50%;
 }
 
+/*------------------------------
+     service panels
+------------------------------*/
+
+.panel-text {
+	color: white;
+	text-align: center;
+	font-weight: bold;
+	text-shadow: 1px 1px black;
+
+}
 .panel {
 	margin: 2rem;
+	height: 25rem;
+	width: 23rem;
 }
-.well-text {
-	color: #ff1a1a;
-	text-align: center;
-	font-weight: bolder;
-	text-shadow: 2px 2px blue;
-	font-family: 
+
+.hidden {
+    visibility: hidden;
 }
 
 .services-text {
@@ -147,16 +157,89 @@ nav {
 }
 
 .price {
-	color: blue;
+	color: green;
 	text-align: center;
-	font-family: 
+	font-family: "serif";
+	text-shadow: 1px 1px black;
+	font-size: 3rem;
+	margin: 2rem;
+	position: absolute;
+	bottom: -1rem;
 }
 
-.services-footer {
-	margin: 2rem;
-	color: black;
-	font-size: 3rem;
-	text-align: center;
+
+.panel-footer {
+	height: 6rem;
+	width: 23rem;
+	position: absolute;
+	left: 3.5rem;
+	bottom: 1rem;
+}
+
+.panel-body {
+	height: 83%;
+}
+
+footer {
+    display: none;
+}
+
+.panel-body:hover>footer {
+    display: block;
+}
+
+/*------------------------------
+service panel backgrounds
+------------------------------*/
+
+.male-cuts {
+	background-image: url("img/mens-cut.jpeg");
+	background-size: cover;
+}
+
+.womans-cuts {
+	background-image: url("img/scissors.jpeg");
+	background-size: cover;
+}
+
+.shampoo {
+	background-image: url("img/shampoo.jpeg");
+	background-size: cover;
+}
+
+.hair-dye {
+	background-image: url("img/colorbowl.jpeg");
+	background-size: cover;
+}
+
+.brow-wax {
+	background-image: url("img/brow_wax.jpeg");
+	background-size: cover;
+}
+
+.beard-trim {
+	background-image: url("img/beard2.jpeg");
+	background-size: cover;
+}
+
+.stache-trim {
+	background-image: url("img/stache.jpeg");
+	background-size: cover;
+}
+
+.head-shave {
+	background-image: url("img/head_shave.jpeg");
+	background-size: cover;
+}
+
+.razor-fade {
+	background-image: url("img/razor_fade.jpeg");
+	background-size: cover;
+}
+
+.beard-shave {
+	background-image: url("img/beard_shave.jpeg");
+	background-size: cover;
 }
 /*--------------------------------*/
        /*Testimonials*/
@@ -225,9 +308,10 @@ nav {
        /*Map*/
 /*---------------------------------*/
  #map-canvas {
-      width: 100% auto;
-      height: 675px;
+      width: 40%;
+      height: 400px;
       padding-right: 10px;
+      float: right;
     }
     #content {
       width: 100px auto;
@@ -241,6 +325,43 @@ nav {
     }
     img {
       height: 25%;
+    }
+
+    .pcbs {
+    	text-decoration: underline;
+    	font-size: 3rem;
+    	font-weight: bolder;
+    	color: white;
+    	text-shadow: 2px 2px black;
+    }
+
+    .patriot {
+    	color: red;
+    }
+
+    .bs {
+    	color: blue;
+    }
+
+    .shop-address {
+    	font-size: 3rem;
+    	font-weight: bolder;
+    	color: white;
+    	text-shadow: 2px 2px black;
+    }
+
+    .phone-number {
+    	font-size: 3rem;
+    	font-weight: bolder;
+    	color: #ccccff;
+    	text-shadow: 2px 2px black;
+    }
+
+    .loc-hours {
+    	font-size: 2rem;
+    	font-weight: 500;
+    	color: #ccccff;
+    	text-shadow: 2px 2px black;
     }
 /*--------------------------------------*/
 

@@ -2,20 +2,19 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Patriot Cuts</title>
-  <meta charset="utf-8">
-  <meta lang="en">
-  <meta name="viewport" content="width=device-width, initial-scale=0">
-  <!-- <link rel="stylesheet" type="text/css" href="http://cssreset.com/normalize.css"> -->
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
-  <link rel="stylesheet" type="text/css" href="/patriot_cuts.css">
-  <link rel="stylesheet" type="text/css" href="css/lightbox.css">
-    <!--style for carousel  -->
-   
 
-    <style>
-    </style>
-
+	<title>Patriot Cuts</title>
+	<meta charset="utf-8">
+	<meta lang="en">
+	<meta name="viewport" content="width=device-width, initial-scale=0">
+	<link rel="stylesheet" type="text/css" href="http://cssreset.com/normalize.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+	<link rel="stylesheet" type="text/css" href="/patriot_cuts.css">
+	<script src="http://code.jquery.com/jquery-1.12.0.min.js"></script>
+	 <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+	<link rel="stylesheet" type="text/css" href="/patriot_cuts.js">
+	<link rel="stylesheet" type="text/css" href="css/lightbox.css">
+  
 </head>
 <body>
     <div class="container">
@@ -24,13 +23,23 @@
   <nav class="navbar navbar-inverse">
     <!-- <div class="container-fluid"> -->
       <div class="navbar-header">
+      	 <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
         <img src="pcbsLogoPoleWh.png" alt="logo" width="200" height="75">
       </div>
-        <button type="button" class="btn btn-link btn-sm header-text" data-toggle="modal" data-target="#myModal">Hours |</button>
-        <a href="#services" class="header-text services">Services |</a> 
-        <a href="#location" class="header-text location">Location |</a> 
-        <button type="button" class="btn btn-link btn-sm header-text" data-toggle="modal" data-target="#contact-modal">Contact Us</button>
-            
+      <div class="collapse navbar-collapse navbar-right" id="myNavbar">
+      
+          <ul class="nav navbar-nav navbar-right">
+            <li><a href="#services" class="text header-text btn-link services">Services</a></li>
+            <li><a href="#button" class="btn btn-link text" data-toggle="modal" data-target="#myModal">Hours</a></li>
+            <li><a href="#location" class="text header-text btn-link">Location</a></li>
+            <li><a href="#button" class="btn btn-link text" data-toggle="modal" data-target="#contact-modal">Contact us</a></li>
+          </ul>
+        </li>
+      </div>
   <!-- Hours Modal -->
         <div class="modal fade" id="myModal" role="dialog">
         <div class="modal-dialog">
@@ -205,136 +214,213 @@
     </a>
   </div>
 </div>
-<hr/>
 <!-- Carousel END-->
-  <section class="services-section">
-    <!-- Services Well -->
-    <div class="row">
-        <div class="col-sm-8 col-md-4 col-lg-12">
-           <div class="well services-well well-text">Services</div>
-           <a id="services"></a>
+<hr>
+<!-- Begin Services Section-->
+	<section class="services-section">
+		<!-- Services Well -->
+		<div class="row">
+    		<div class="col-sm-8 col-md-4 col-lg-12">
+    			 <div class="well services-well well-text">Services</div>
+    			 <a id="services"></a>
 
-           <!-- services panels row 1 -->
-           <div class="row">
-            <div class="col-sm-3 col-md-3 col-lg-3">
-              <div class="panel panel-danger men-cuts">
-              <div class="panel-heading panel-text">Men Haircuts</div>
-              <div class="panel-body">
-                <div class="services men-cuts">
-                  <p></p>
-                  <p></p></div>
-              <footer>
-                  <p class="price panel-text">&#36;12.&#186;&#186;</p>
-                  </footer>
-            </div>
-            </div>
-          </div>
+    			 <!-- services panels row 1 -->
+    			 <div class="row">
+    			 	<div class="col-sm-3 col-md-3 col-lg-3">
+    			 		<div class="panel panel-primary men-cuts">
+  						<div class="panel-heading panel-text">Men Haircuts</div>
+  						<div class="panel-body male-cuts">
+								<div class="services panel-img">
+									<p></p>
+									<p></p></div>
+							<footer class="panel-footer">
+    							<p class="price">&#36;12.&#186;&#186;</p>
+        					</footer>
+						</div>
+						</div>
+					</div>
 
-            <div class="col-sm-3 col-md-3 col-lg-3">
-              <div class="panel panel-danger men-cuts">
-              <div class="panel-heading panel-text">Women's Haircuts</div>
-              <div class="panel-body">
-                <div class="services womans-cuts">
-                  <p></p>
-                  <p></p></div>
-              <footer>
-                  <p class="price panel-text">&#36;15.&#186;&#186;, and up</p>
-                  </footer>
-            </div>
-            </div>
-          </div>
+    			 	<div class="col-sm-3 col-md-3 col-lg-3">
+    			 		<div class="panel panel-primary women-cuts">
+  						<div class="panel-heading panel-text">Women's Haircuts</div>
+  						<div class="panel-body womans-cuts">
+								<div class="services panel-img">
+									<p></p>
+									<p></p></div>
+							<footer class="panel-footer">
+    							<p class="price">&#36;15.&#186;&#186; &amp; &#8679;</p>
+        					</footer>
+						</div>
+						</div>
+					</div>
 
-          <div class="col-sm-3 col-md-3 col-lg-3">
-              <div class="panel panel-danger men-cuts">
-              <div class="panel-heading panel-text">Shampoo <span class="tea">[Tea Tree]</span></div>
-              <div class="panel-body">
-                <div class="services shampoo">
-                  <p></p>
-                  <p></p></div>
-              <footer>
-                  <p class="price panel-text">&#36;5.&#186;&#186;</p>
-                  </footer>
-            </div>
-            </div>
-          </div>
-
-          <div class="col-sm-3 col-md-3 col-lg-3">
-              <div class="panel panel-danger men-cuts">
-              <div class="panel-heading panel-text">Hair Dye</div>
-              <div class="panel-body">
-                <div class="services hair-dye">
-                  <p></p>
-                  <p></p></div>
-              <footer>
-                  <p class="price panel-text">&#36;35.&#186;&#186;, and up</p>
-                  </footer>
-            </div>
-            </div>
-          </div>
-        </div>
-        <div class="row">
-            <div class="col-sm-3 col-md-3 col-lg-3">
-              <div class="panel panel-danger men-cuts">
-              <div class="panel-heading panel-text">Eyebrow Wax</div>
-              <div class="panel-body">
-                <div class="services brow-wax">
-                  <p></p>
-                  <p></p></div>
-              <footer>
-                  <p class="price panel-text">&#36;10.&#186;&#186;</p>
-                  </footer>
-            </div>
-            </div>
-          </div>
-          <div class="col-sm-3 col-md-3 col-lg-3">
-              <div class="panel panel-danger men-cuts">
-              <div class="panel-heading panel-text">Beard Trim</div>
-              <div class="panel-body">
-                <div class="services brow-wax">
-                  <p></p>
-                  <p></p></div>
-              <footer>
-                  <p class="price panel-text">&#36;5.&#186;&#186;</p>
-                  </footer>
-            </div>
-            </div>
-          </div>
-          <div class="col-sm-3 col-md-3 col-lg-3">
-              <div class="panel panel-danger men-cuts">
-              <div class="panel-heading panel-text">Moustache Trim</div>
-              <div class="panel-body">
-                <div class="services brow-wax">
-                  <p></p>
-                  <p></p></div>
-              <footer>
-                  <p class="price panel-text">&#36;3.&#186;&#186;</p>
-                  </footer>
-            </div>
-            </div>
-          </div>
-          <div class="col-sm-3 col-md-3 col-lg-3">
-              <div class="panel panel-danger men-cuts">
-              <div class="panel-heading panel-text">Accepted Forms of Payment</div>
-              <div class="panel-body">
-                <div class="services payment">
-                  <p></p>
-                  <p></p></div>
-              <footer>
-                  <p class="price panel-text"></p>
-                  </footer>
-            </div>
-            </div>
-          </div>
-<div class="row">
-        <div class="col-sm-8 col-md-4 col-lg-12">
-           <div class="well services-footer">HOURS: Monday thru Friday 10 - 7, Saturday 10 - 6, Sunday 11 - 5</div>
-        <a href="#top" class="return-top">Back to Top</a> 
+					<div class="col-sm-3 col-md-3 col-lg-3">
+    			 		<div class="panel panel-primary shampoo">
+  						<div class="panel-heading panel-text">Shampoo <span class="tea">[Tea Tree]</span></div>
+  						<div class="panel-body shampoo">
+								<div class="services panel-img">
+									<p></p>
+									<p></p></div>
+							<footer class="panel-footer">
+    							<p class="price">&#36;5.&#186;&#186;</p>
+        					</footer>
+						</div>
+						</div>
+					</div>
 
 
-          </div>
+					<div class="col-sm-3 col-md-3 col-lg-3">
+    			 		<div class="panel panel-primary men-cuts">
+  						<div class="panel-heading panel-text">Hair Dye</div>
+  						<div class="panel-body hair-dye">
+								<div class="services panel-img">
+									<p></p>
+									<p></p></div>
+							<footer class="panel-footer">
+    							<p class="price">&#36;35.&#186;&#186; &amp; &#8679;</p>
+        					</footer>
+						</div>
+						</div>
+					</div>
+				</div>
+		
+		<!-- services panels row 2 -->
+				<div class="row">
+    			 	<div class="col-sm-3 col-md-3 col-lg-3">
+    			 		<div class="panel panel-primary men-cuts">
+  						<div class="panel-heading panel-text">Eyebrow Wax</div>
+  						<div class="panel-body brow-wax">
+								<div class="services panel-img">
+									<p></p>
+									<p></p></div>
+							<footer class="panel-footer">
+    							<p class="price">&#36;10.&#186;&#186;</p>
+        					</footer>
+						</div>
+						</div>
+					</div>
+					<div class="col-sm-3 col-md-3 col-lg-3">
+    			 		<div class="panel panel-primary men-cuts">
+  						<div class="panel-heading panel-text">Beard Trim</div>
+  						<div class="panel-body beard-trim">
+								<div class="services panel-img">
+									<p></p>
+									<p></p></div>
+							<footer class="panel-footer">
+    							<p class="price">&#36;5.&#186;&#186;</p>
+        					</footer>
+						</div>
+						</div>
+					</div>
+					<div class="col-sm-3 col-md-3 col-lg-3">
+    			 		<div class="panel panel-primary men-cuts">
+  						<div class="panel-heading panel-text">Moustache Trim</div>
+  						<div class="panel-body stache-trim">
+								<div class="services panel-img">
+									<p></p>
+									<p></p></div>
+							<footer class="panel-footer">
+    							<p class="price">&#36;3.&#186;&#186;</p>
+        					</footer>
+						</div>
+						</div>
+					</div>
+					<div class="col-sm-3 col-md-3 col-lg-3">
+    			 		<div class="panel panel-primary men-cuts">
+  						<div class="panel-heading panel-text">Head Shave</div>
+  						<div class="panel-body head-shave">
+								<div class="services panel-img">
+									<p></p>
+									<p></p></div>
+							<footer class="panel-footer">
+    							<p class="price">&#36;22.&#186;&#186;</p>
+        					</footer>
+						</div>
+						</div>
+					</div>
+				</div>
 
-  </section>
+				<div class="row">
+    			 	<div class="col-sm-3 col-md-3 col-lg-3">
+    			 		<div class="panel panel-primary men-cuts hidden">
+  						<div class="panel-heading panel-text">Fade</div>
+  						<div class="panel-body fade">
+								<div class="services panel-img">
+									<p></p>
+									<p></p></div>
+							<footer class="panel-footer">
+    							<p class="price">&#36;10.&#186;&#186;</p>
+        					</footer>
+						</div>
+						</div>
+					</div>
+					<div class="col-sm-3 col-md-3 col-lg-3">
+    			 		<div class="panel panel-primary men-cuts">
+  						<div class="panel-heading panel-text">Razor Fade</div>
+  						<div class="panel-body razor-fade">
+								<div class="services panel-img">
+									<p></p>
+									<p></p></div>
+							<footer class="panel-footer">
+    							<p class="price">&#36;18.&#186;&#186;</p>
+        					</footer>
+						</div>
+						</div>
+					</div>
+					<div class="col-sm-3 col-md-3 col-lg-3">
+    			 		<div class="panel panel-primary men-cuts">
+  						<div class="panel-heading panel-text">Beard Shave</div>
+  						<div class="panel-body beard-shave">
+								<div class="services panel-img">
+									<p></p>
+									<p></p></div>
+							<footer class="panel-footer">
+    							<p class="price">&#36;18.&#186;&#186;</p>
+        					</footer>
+						</div>
+						</div>
+					</div>
+					
+				</div>
+
+		<div class="row">
+    		<div class="col-sm-8 col-md-4 col-lg-12">
+    			<!-- <div class="well services-footer">HOURS: Monday thru Friday 10 - 7, Saturday 10 - 6, Sunday 11 - 5</div> -->
+	  			<a href="#top" class="return-top">Back to Top</a> 
+			</div>
+	</section>
+	<!--End Services Section-->
+	<hr>
+	<!--Begin Location Section-->
+	<section>
+			<div id="map-canvas"></div>
+		<div class="shop-info">
+			<br>
+			<br>
+			<br>
+			<br>
+			<p class="shop-address pcbs"><span class="patriot">Patriot</span> Cuts <span class="bs">Barber Shop</span></p>
+			<p class="shop-address">3246 Broadway Street</p>
+			<p class="shop-address">San Antonio, TX., 78209 </p>
+			<p class="phone-number">phone: (210) 822-0780</p>
+			<p class="loc-hours">hours: M - F, 10am - 7pm; Sat, 10am - 6pm; Sun, 11am - 5pm</p>
+			<br>
+			<br>
+			<br>
+			<br>
+			<a id="location"></a>
+  			<a href="#top" class="return-top">Back to Top</a> 
+		</div>
+	</section>
+
+
+
   <hr>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+   <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+   <script src="js/lightbox.js"></script>
+
+  <script src="https://maps.googleapis.com/maps/api/js?AIzaSyDrJtDlJgRpm1HBbRhYMy_2oTW_TFm35Rg"></script>
 <!-- IMAGE GALLERY START -->
 <div>
       <a class="example-image-link" href="/img/boy.png" data-lightbox="example-set" data-title="Click the right half of the image to move forward."><img class="example-image" src="img/boy-thumb.png" alt=""/></a>
@@ -344,21 +430,9 @@
 </div>
 
 <!-- IMAGE GALLERY END -->
-
-  <hr>
-<section>
-  <div id="map-canvas"></div>
-  <a id="location"></a>
-  <a href="#top" class="return-top">Back to Top</a> 
-</section>
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
-   <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
-   <script src="js/lightbox.js"></script>
-
-  <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCGUPMgw96CJ92ps0zOrB7kw8cH_tcCnVs"></script>
   <script type="text/javascript">
-    (function() {
       "use strict";
+    (function() {
       var address = "Address: 3246 Broadway St, San Antonio, TX 78209";
       var geocoder = new google.maps.Geocoder();
       geocoder.geocode({
@@ -404,6 +478,8 @@
       };
       var map = new google.maps.Map(document.getElementById("map-canvas"), mapOptions);
     })();
+
+    
   </script>
 
 </body>

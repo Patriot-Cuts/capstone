@@ -8,22 +8,7 @@ nav {
 	text-align: right;
 	color: white;
 	}
-/*.header-text {
-	font-size: 20px;
-	margin: 10px;
-	position: relative;
-	top: 20px;
-	}
-	.services {
-		color: white;
-	}
-	.location {
-		color: blue;
-	}*/
-	/*.btn-link {
-		background-color: red;
-	}*/
-	/* unvisited link */
+
 .btn-link:link {
     color: red;
 }
@@ -75,15 +60,15 @@ nav {
 	}
 #contact-name {
 	position: relative;
-	left: 0px
+	left: 21px
 	}
 #contact-email {
 	position: relative;
-	left: 0px;
+	left: 23px;
 	}
 #contact-subject {
 	position: relative;
-	left: 0px;
+	left: 15px;
 	}
 #contact-cc {
 	position: relative;
@@ -102,6 +87,9 @@ nav {
 	}
 .contact-input {
 	color: black;
+	}
+	.contact-send, .contact-cancel {
+		color: black;
 	}
 /*--------------------------------*/
          /*Carousel*/

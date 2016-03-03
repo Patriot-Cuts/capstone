@@ -8,22 +8,7 @@ nav {
 	text-align: right;
 	color: white;
 	}
-/*.header-text {
-	font-size: 20px;
-	margin: 10px;
-	position: relative;
-	top: 20px;
-	}
-	.services {
-		color: white;
-	}
-	.location {
-		color: blue;
-	}*/
-	/*.btn-link {
-		background-color: red;
-	}*/
-	/* unvisited link */
+
 .btn-link:link {
     color: red;
 }
@@ -75,15 +60,15 @@ nav {
 	}
 #contact-name {
 	position: relative;
-	left: 0px
+	left: 21px
 	}
 #contact-email {
 	position: relative;
-	left: 0px;
+	left: 23px;
 	}
 #contact-subject {
 	position: relative;
-	left: 0px;
+	left: 15px;
 	}
 #contact-cc {
 	position: relative;
@@ -103,6 +88,9 @@ nav {
 .contact-input {
 	color: black;
 	}
+	.contact-send, .contact-cancel {
+		color: black;
+	}
 /*--------------------------------*/
          /*Carousel*/
 /*---------------------------------*/
@@ -111,6 +99,9 @@ nav {
 	      width: 100%;
 	      margin: auto;
 	  }
+	.carousel-caption {
+	text-shadow: 2px 2px blue; 
+}
 /*--------------------------------*/
           /*Services Well*/
 /*--------------------------------*/
@@ -256,10 +247,10 @@ service panel backgrounds
 
 #quote-carousel .carousel-control {
   background: none;
-   color: #28C8FD;
-  font-size: 2.3em;
+  font-size: 1.5em;
   text-shadow: none;
   margin-top: 30px;
+  opacity: .5;
 }
 
 #quote-carousel .carousel-indicators {
@@ -302,6 +293,12 @@ service panel backgrounds
   font-family: 'Fontawesome';
   float: left;
   margin-right: 10px;
+}
+.item blockquote p:after {
+  content: "\f10e";
+  font-family: 'Fontawesome';
+  float: right;
+  margin-left: 10px;
 }
 
 /*--------------------------------*/

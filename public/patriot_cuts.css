@@ -1,22 +1,19 @@
 /*-------------------------
 Header/nav
 ---------------------------*/
-
-/*
-* {
+/** {
 	border: 1px orange solid
 }*/
 
 body {
-  /*background-color: #444B51;*/
-  background-image: url(http://capstone.dev/BarberShopFrontBW.jpg);
+  background-color: #444B51;
+  /*background-image: url(http://capstone.dev/BarberShopFrontBW.jpg);
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
-  background-position: center;
+  background-position: center;*/
 }
 nav {
-<<<<<<< HEAD
   text-align: right;
   color: white;
 }
@@ -41,11 +38,6 @@ nav {
 
 
 /* unvisited link */
-=======
-	text-align: right;
-	color: white;
-	}
->>>>>>> 11673f98fd4698fa329fb4d68125d87c02e2ba11
 
 .btn-link:link {
   color: red;
@@ -102,7 +94,6 @@ Contact Us Modal
   margin: 30px;
 }
 #contact-name {
-<<<<<<< HEAD
   position: relative;
   left: 0px
 }
@@ -114,19 +105,6 @@ Contact Us Modal
   position: relative;
   left: 0px;
 }
-=======
-	position: relative;
-	left: 21px
-	}
-#contact-email {
-	position: relative;
-	left: 23px;
-	}
-#contact-subject {
-	position: relative;
-	left: 15px;
-	}
->>>>>>> 11673f98fd4698fa329fb4d68125d87c02e2ba11
 #contact-cc {
   position: relative;
   left: 0px;
@@ -143,35 +121,7 @@ Contact Us Modal
   text-shadow: 2px 2px white;
 }
 .contact-input {
-<<<<<<< HEAD
   color: black;
-=======
-	color: black;
-	}
-	.contact-send, .contact-cancel {
-		color: black;
-	}
-/*--------------------------------*/
-         /*Carousel*/
-/*---------------------------------*/
-	.carousel-inner > .item > img,
-	  .carousel-inner > .item > a > img {
-	      width: 100%;
-	      margin: auto;
-	  }
-	.carousel-caption {
-	text-shadow: 2px 2px blue; 
-}
-/*--------------------------------*/
-          /*Services Well*/
-/*--------------------------------*/
-.well-text {
-	color: #ff1a1a;
-	text-align: center;
-	font-weight: bolder;
-	text-shadow: 2px 2px blue;
-	font-family: 
->>>>>>> 11673f98fd4698fa329fb4d68125d87c02e2ba11
 }
 
 /*--------------------------------
@@ -306,19 +256,14 @@ Testimonials
 }
 #quote-carousel {
   padding: 0 10px 30px 10px;
-  /*margin-top: 60px;*/
+  margin-top: 60px;
 }
 #quote-carousel .carousel-control {
   background: none;
-<<<<<<< HEAD
   color: #28C8FD;
   font-size: 2.3em;
-=======
-  font-size: 1.5em;
->>>>>>> 11673f98fd4698fa329fb4d68125d87c02e2ba11
   text-shadow: none;
   margin-top: 30px;
-  opacity: .5;
 }
 #quote-carousel .carousel-indicators {
   position: relative;
@@ -357,93 +302,10 @@ Testimonials
   float: left;
   margin-right: 10px;
 }
-.item blockquote p:after {
-  content: "\f10e";
-  font-family: 'Fontawesome';
-  float: right;
-  margin-left: 10px;
-}
 
-<<<<<<< HEAD
 /*--------------------------------
 Map
 ---------------------------------*/
-=======
-/*--------------------------------*/
-       /*Map*/
-/*---------------------------------*/
- #map-canvas {
-      width: 40%;
-      height: 400px;
-      padding-right: 10px;
-      float: right;
-    }
-    #content {
-      width: 100px auto;
-      height: 75px auto;
-      font-size: 11px;
-      border-radius: 50px;
-      text-align: center;
-    }
-    #siteNotice {
-      align-items: center;
-    }
-    img {
-      height: 25%;
-    }
-
-    .pcbs {
-    	text-decoration: underline;
-    	font-size: 3rem;
-    	font-weight: bolder;
-    	color: white;
-    	text-shadow: 2px 2px black;
-    }
-
-    .patriot {
-    	color: red;
-    }
-
-    .bs {
-    	color: blue;
-    }
-
-    .shop-address {
-    	font-size: 3rem;
-    	font-weight: bolder;
-    	color: white;
-    	text-shadow: 2px 2px black;
-    }
-
-    .phone-number {
-    	font-size: 3rem;
-    	font-weight: bolder;
-    	color: #ccccff;
-    	text-shadow: 2px 2px black;
-    }
-
-    .loc-hours {
-    	font-size: 2rem;
-    	font-weight: 500;
-    	color: #ccccff;
-    	text-shadow: 2px 2px black;
-    }
-
-    .creditCards {
-		color: yellow;
-		font-size: 250%;
-		text-align: left;
-	}
-
-/*--------------------------------
-Footer
----------------------------------*/
-	.footer {
-		width: 100%;
-		text-align: center;
-		color: white
-	}
->>>>>>> f10774b97de51e8d9d5565b9448101217f0df3c3
 
 #map-canvas {
   width: 45%;

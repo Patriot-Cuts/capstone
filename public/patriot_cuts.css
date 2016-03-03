@@ -9,20 +9,6 @@ nav {
 	color: white;
 	}
 
-.btn-link:link {
-    color: red;
-}
-
-/* visited link */
-.btn-link:visited {
-    color: white;
-}
-
-/* mouse over link */
-.btn-link:hover {
-    color: blue;
-}
-
 /*------------------------------------------------------
                   Hours Modal
 ------------------------------------------------------*/

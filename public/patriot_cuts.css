@@ -8,22 +8,7 @@ nav {
 	text-align: right;
 	color: white;
 	}
-.header-text {
-	font-size: 20px;
-	margin: 10px;
-	position: relative;
-	top: 20px;
-	}
-	.services {
-		color: white;
-	}
-	.location {
-		color: blue;
-	}
-	/*.btn-link {
-		background-color: red;
-	}*/
-	/* unvisited link */
+
 .btn-link:link {
     color: red;
 }
@@ -75,15 +60,15 @@ nav {
 	}
 #contact-name {
 	position: relative;
-	left: 0px
+	left: 21px
 	}
 #contact-email {
 	position: relative;
-	left: 0px;
+	left: 23px;
 	}
 #contact-subject {
 	position: relative;
-	left: 0px;
+	left: 15px;
 	}
 #contact-cc {
 	position: relative;
@@ -103,6 +88,9 @@ nav {
 .contact-input {
 	color: black;
 	}
+	.contact-send, .contact-cancel {
+		color: black;
+	}
 /*--------------------------------*/
          /*Carousel*/
 /*---------------------------------*/
@@ -111,16 +99,19 @@ nav {
 	      width: 100%;
 	      margin: auto;
 	  }
+	.carousel-caption {
+	text-shadow: 2px 2px blue; 
+}
 /*--------------------------------*/
           /*Services Well*/
 /*--------------------------------*/
-.services-section {
-	background-color: blue;
+.well-text {
+	color: #ff1a1a;
+	text-align: center;
+	font-weight: bolder;
+	text-shadow: 2px 2px blue;
+	font-family: 
 }
-
-/*.panel-heading {
-	background-color: red;
-}*/
 
 .services-well {
 	margin: 2rem;
@@ -128,15 +119,25 @@ nav {
 	border-radius: 50%;
 }
 
+/*------------------------------
+     service panels
+------------------------------*/
+
+.panel-text {
+	color: white;
+	text-align: center;
+	font-weight: bold;
+	text-shadow: 1px 1px black;
+
+}
 .panel {
 	margin: 2rem;
+	height: 25rem;
+	width: 23rem;
 }
-.well-text {
-	color: #ff1a1a;
-	text-align: center;
-	font-weight: bolder;
-	text-shadow: 2px 2px blue;
-	font-family: 
+
+.hidden {
+    visibility: hidden;
 }
 
 .services-text {
@@ -147,24 +148,167 @@ nav {
 }
 
 .price {
-	color: blue;
+	color: green;
 	text-align: center;
-	font-family: 
+	font-family: "serif";
+	text-shadow: 1px 1px black;
+	font-size: 3rem;
+	margin: 2rem;
+	position: absolute;
+	bottom: -1rem;
 }
 
-.services-footer {
-	margin: 2rem;
-	color: black;
-	font-size: 3rem;
-	text-align: center;
+
+.panel-footer {
+	height: 6rem;
+	width: 23rem;
+	position: absolute;
+	left: 3.5rem;
+	bottom: 1rem;
 }
+
+.panel-body {
+	height: 83%;
+}
+
+footer {
+    display: none;
+}
+
+.panel-body:hover>footer {
+    display: block;
+}
+
+/*------------------------------
+service panel backgrounds
+------------------------------*/
+
+.male-cuts {
+	background-image: url("img/mens-cut.jpeg");
+	background-size: cover;
+}
+
+.womans-cuts {
+	background-image: url("img/scissors.jpeg");
+	background-size: cover;
+}
+
+.shampoo {
+	background-image: url("img/shampoo.jpeg");
+	background-size: cover;
+}
+
+.hair-dye {
+	background-image: url("img/colorbowl.jpeg");
+	background-size: cover;
+}
+
+.brow-wax {
+	background-image: url("img/brow_wax.jpeg");
+	background-size: cover;
+}
+
+.beard-trim {
+	background-image: url("img/beard2.jpeg");
+	background-size: cover;
+}
+
+.stache-trim {
+	background-image: url("img/stache.jpeg");
+	background-size: cover;
+}
+
+.head-shave {
+	background-image: url("img/head_shave.jpeg");
+	background-size: cover;
+}
+
+.razor-fade {
+	background-image: url("img/razor_fade.jpeg");
+	background-size: cover;
+}
+
+.beard-shave {
+	background-image: url("img/beard_shave.jpeg");
+	background-size: cover;
+}
+/*--------------------------------*/
+       /*Testimonials*/
+/*---------------------------------*/
+#quote-title {
+	color: #28C8FD;
+	text-align:  center;
+}
+
+#quote-carousel {
+  padding: 0 10px 30px 10px;
+  /*margin-top: 60px;*/
+}
+
+#quote-carousel .carousel-control {
+  background: none;
+  font-size: 1.5em;
+  text-shadow: none;
+  margin-top: 30px;
+  opacity: .5;
+}
+
+#quote-carousel .carousel-indicators {
+  position: relative;
+  right: 50%;
+  top: auto;
+  bottom: 0px;
+  margin-top: 20px;
+  margin-right: -19px;
+}
+
+#quote-carousel .carousel-indicators li {
+  width: 50px;
+  height: 50px;
+  cursor: pointer;
+  border: 1px solid #ccc;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+  border-radius: 50%;
+  opacity: 0.4;
+  overflow: hidden;
+  transition: all .4s ease-in;
+  vertical-align: middle;
+}
+
+#quote-carousel .carousel-indicators .active {
+  width: 128px;
+  height: 128px;
+  opacity: 1;
+  transition: all .2s;
+}
+
+.item blockquote {
+  border-left: none;
+  color: #28C8FD;
+  margin: 0;
+}
+
+.item blockquote p:before {
+  content: "\f10d";
+  font-family: 'Fontawesome';
+  float: left;
+  margin-right: 10px;
+}
+.item blockquote p:after {
+  content: "\f10e";
+  font-family: 'Fontawesome';
+  float: right;
+  margin-left: 10px;
+}
+
 /*--------------------------------*/
        /*Map*/
 /*---------------------------------*/
  #map-canvas {
-      width: 100% auto;
-      height: 675px;
+      width: 40%;
+      height: 400px;
       padding-right: 10px;
+      float: right;
     }
     #content {
       width: 100px auto;
@@ -179,7 +323,56 @@ nav {
     img {
       height: 25%;
     }
-/*--------------------------------------*/
 
+    .pcbs {
+    	text-decoration: underline;
+    	font-size: 3rem;
+    	font-weight: bolder;
+    	color: white;
+    	text-shadow: 2px 2px black;
+    }
 
+    .patriot {
+    	color: red;
+    }
+
+    .bs {
+    	color: blue;
+    }
+
+    .shop-address {
+    	font-size: 3rem;
+    	font-weight: bolder;
+    	color: white;
+    	text-shadow: 2px 2px black;
+    }
+
+    .phone-number {
+    	font-size: 3rem;
+    	font-weight: bolder;
+    	color: #ccccff;
+    	text-shadow: 2px 2px black;
+    }
+
+    .loc-hours {
+    	font-size: 2rem;
+    	font-weight: 500;
+    	color: #ccccff;
+    	text-shadow: 2px 2px black;
+    }
+
+    .creditCards {
+		color: yellow;
+		font-size: 250%;
+		text-align: left;
+	}
+
+/*--------------------------------
+Footer
+---------------------------------*/
+	.footer {
+		width: 100%;
+		text-align: center;
+		color: white
+	}
 

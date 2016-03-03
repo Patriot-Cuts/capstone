@@ -39,6 +39,11 @@ nav {
 
 /* unvisited link */
 
+<<<<<<< HEAD
+/*------------------------------------------------------
+                  Hours Modal
+------------------------------------------------------*/
+=======
 .btn-link:link {
   color: red;
 }
@@ -59,6 +64,7 @@ nav {
 Hours Modal
 ----------------------------------*/
 
+>>>>>>> 9e2e0b8a69584e41f51addf69a74f30880e4fd5d
 .modal-title {
   color: red;
   text-shadow: 2px 2px purple;

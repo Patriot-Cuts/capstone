@@ -39,11 +39,6 @@ nav {
 
 /* unvisited link */
 
-<<<<<<< HEAD
-/*------------------------------------------------------
-                  Hours Modal
-------------------------------------------------------*/
-=======
 .btn-link:link {
   color: red;
 }
@@ -64,7 +59,6 @@ nav {
 Hours Modal
 ----------------------------------*/
 
->>>>>>> 9e2e0b8a69584e41f51addf69a74f30880e4fd5d
 .modal-title {
   color: red;
   text-shadow: 2px 2px purple;
@@ -251,10 +245,14 @@ service panel backgrounds
   background-image: url("img/beard_shave.jpeg");
   background-size: cover;
 }
+/*--------------------------------*/
+       /*Testimonials*/
+/*---------------------------------*/
+#quotes {
+	/*background-color:rgba(4, 25, 25, .1);*/
 
-/*--------------------------------
-Testimonials
----------------------------------*/
+	background-color: rgba(0,20,200,0.05);
+}
 
 #quote-title {
   color: #28C8FD;

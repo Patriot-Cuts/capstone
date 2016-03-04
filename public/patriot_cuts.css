@@ -7,11 +7,7 @@ Header/nav
 
 body {
   background-color: #444B51;
-  /*background-image: url(http://capstone.dev/BarberShopFrontBW.jpg);
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-size: cover;
-  background-position: center;*/
+  
 }
 nav {
   text-align: right;
@@ -39,11 +35,6 @@ nav {
 
 /* unvisited link */
 
-<<<<<<< HEAD
-/*------------------------------------------------------
-                  Hours Modal
-------------------------------------------------------*/
-=======
 .btn-link:link {
   color: red;
 }
@@ -64,7 +55,6 @@ nav {
 Hours Modal
 ----------------------------------*/
 
->>>>>>> 9e2e0b8a69584e41f51addf69a74f30880e4fd5d
 .modal-title {
   color: red;
   text-shadow: 2px 2px purple;
@@ -137,6 +127,9 @@ Carousel
 .carousel-inner > .item > img, .carousel-inner > .item > a > img {
   width: 100%;
   margin: auto;
+}
+.carousel-caption {
+  text-shadow: 2px 2px blue;
 }
 
 /*--------------------------------
@@ -251,10 +244,9 @@ service panel backgrounds
   background-image: url("img/beard_shave.jpeg");
   background-size: cover;
 }
-
-/*--------------------------------
-Testimonials
----------------------------------*/
+/*--------------------------------*/
+       /*Testimonials*/
+/*---------------------------------*/
 
 #quote-title {
   color: #28C8FD;

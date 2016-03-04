@@ -235,6 +235,11 @@ service panel backgrounds
 /*--------------------------------*/
        /*Testimonials*/
 /*---------------------------------*/
+#quotes {
+	/*background-color:rgba(4, 25, 25, .1);*/
+
+	background-color: rgba(0,20,200,0.05);
+}
 #quote-title {
 	color: #28C8FD;
 	text-align:  center;

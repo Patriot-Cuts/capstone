@@ -16,11 +16,7 @@ body {
   background-position: center;
   background-opacity: 25%;*/
 }
-.header-logo {
-	position: relative;
-	top: 2px;
-	left: 2px;
-}
+
 nav {
   text-align: right;
   color: white;

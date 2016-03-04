@@ -7,11 +7,7 @@ Header/nav
 
 body {
   background-color: #444B51;
-  /*background-image: url(http://capstone.dev/BarberShopFrontBW.jpg);
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-size: cover;
-  background-position: center;*/
+  
 }
 nav {
   text-align: right;
@@ -132,6 +128,9 @@ Carousel
   width: 100%;
   margin: auto;
 }
+.carousel-caption {
+  text-shadow: 2px 2px blue;
+}
 
 /*--------------------------------
 Services Well
@@ -248,11 +247,6 @@ service panel backgrounds
 /*--------------------------------*/
        /*Testimonials*/
 /*---------------------------------*/
-#quotes {
-	/*background-color:rgba(4, 25, 25, .1);*/
-
-	background-color: rgba(0,20,200,0.05);
-}
 
 #quote-title {
   color: #28C8FD;

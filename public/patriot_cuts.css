@@ -6,39 +6,25 @@ Header/nav
 }*/
 
 body {
-  background-color: #444B51;
+  /*background-color: #444B51;*/
+  /*background-color: #333333;*/
+  background-color: #262626;
   /*background-image: url(http://capstone.dev/BarberShopFrontBW.jpg);
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
-  background-position: center;*/
+  background-position: center;
+  background-opacity: 25%;*/
 }
+
 nav {
   text-align: right;
   color: white;
 }
 
-/*.header-text {
-	font-size: 20px;
-	margin: 10px;
-	position: relative;
-	top: 20px;
-	}
-	.services {
-		color: white;
-	}
-	.location {
-		color: blue;
-	}*/
-
-
-/*.btn-link {
-		background-color: red;
-	}*/
-
-
-/* unvisited link */
-
+/*------------------------------------------------------
+                  Hours Modal
+------------------------------------------------------*/
 .btn-link:link {
   color: red;
 }
@@ -95,15 +81,15 @@ Contact Us Modal
 }
 #contact-name {
   position: relative;
-  left: 0px
+  left: 21px
 }
 #contact-email {
   position: relative;
-  left: 0px;
+  left: 23px;
 }
 #contact-subject {
   position: relative;
-  left: 0px;
+  left: 15px;
 }
 #contact-cc {
   position: relative;
@@ -122,6 +108,10 @@ Contact Us Modal
 }
 .contact-input {
   color: black;
+}
+
+.contact-send, .contact-cancel {
+	color: black;
 }
 
 /*--------------------------------
@@ -245,14 +235,10 @@ service panel backgrounds
   background-image: url("img/beard_shave.jpeg");
   background-size: cover;
 }
-/*--------------------------------*/
-       /*Testimonials*/
-/*---------------------------------*/
-#quotes {
-	/*background-color:rgba(4, 25, 25, .1);*/
 
-	background-color: rgba(0,20,200,0.05);
-}
+/*--------------------------------
+Testimonials
+---------------------------------*/
 
 #quote-title {
   color: #28C8FD;
@@ -372,7 +358,6 @@ img {
 
 .creditCards {
 	color: yellow;
-	margin-bottom: 200px;
 	font-size: 250%;
 	text-align: left
 	;

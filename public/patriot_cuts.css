@@ -5,8 +5,10 @@ Header/nav
 	border: 1px orange solid
 }*/
 
+
 body {
   background-color: #444B51;
+
   
 }
 
@@ -236,7 +238,7 @@ service panel backgrounds
 /*---------------------------------*/
 
 #quote-title {
-  color: #28C8FD;
+  color: white;
   text-align: center;
 }
 #quote-carousel {
@@ -330,34 +332,34 @@ img {
   color: white;
   text-shadow: 2px 2px black;
 }
-.patriot {
+/*.patriot {
   color: red;
 }
 .bs {
   color: blue;
-}
+}*/
 .shop-address {
   font-size: 3rem;
-  font-weight: bolder;
-  color: white;
+  font-weight: bold;
+  color: #28C8FD;
   text-shadow: 2px 2px black;
 }
 .phone-number {
   font-size: 3rem;
-  font-weight: bolder;
-  color: #ccccff;
+  font-weight: bold;
+  color: #28C8FD;
   text-shadow: 2px 2px black;
 }
 .loc-hours {
   font-size: 2rem;
   font-weight: 500;
-  color: #ccccff;
+  color: #28C8FD;
   text-shadow: 2px 2px black;
 }
 
 .creditCards {
-	color: yellow;
-	font-size: 250%;
+  color: #28C8FD;
+	font-size: 2rem;
 	text-align: left
 	;
 }

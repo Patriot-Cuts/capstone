@@ -287,7 +287,11 @@ service panel backgrounds
   float: left;
   margin-right: 10px;
 }
-
+.item blockquote p:after {
+  content: "\f10e";
+  font-family: 'Fontawesome';
+  float: right;
+}
 /*--------------------------------
 Map
 ---------------------------------*/

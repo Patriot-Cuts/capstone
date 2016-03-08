@@ -422,6 +422,8 @@
                 <img src="img/Visa(Inverted).png" style="width:3em; height:2em;" alt="Visa">
               </p>
               <br>
+              <br>
+              <br>
               <hr>
             </div>
     </div>
@@ -548,26 +550,26 @@
       }, function(results, status) {
         if (status == google.maps.GeocoderStatus.OK) {
           console.log(results);
-          map.setCenter(address);
+          map.setCenter(mapOptions);
           var marker = new google.maps.Marker({
             "position": results[0].geometry.location,
             "map": map,
             "animation": google.maps.Animation.DROP,
             "icon": 'BarberShopPole.png'
           });
-          // var contentString = '<div id="content">' +
-          //   '<div id="siteNotice">' +
-          //   '</div>' +
-          //   '<div id="bodyContent">' +
-          //   '<p><img src="BarberShopFront.jpg" alt="Patriot Cuts Barber Shop Store Front"></p>' +
-          //   '<p><b>Address: </b>3246 Broadway St, San Antonio, TX 78209</p>' +
-          //   '<p><b>Phone: </b>(210) 822-0780</p>' +
-          //   '</div>' +
-          //   '</div>';
-          // var info = new google.maps.InfoWindow({
-          //   content: contentString
-          // });
-          info.open(map, marker);
+          var contentString = '<div id="content">' +
+            '<div id="siteNotice">' +
+            '</div>' +
+            '<div id="bodyContent">' +
+            '<p><img src="BarberShopFront.jpg" alt="Patriot Cuts Barber Shop Store Front"></p>' +
+            // '<p><b>Address: </b>3246 Broadway St, San Antonio, TX 78209</p>' +
+            // '<p><b>Phone: </b>(210) 822-0780</p>' +
+            '</div>' +
+            '</div>';
+          var info = new google.maps.InfoWindow({
+            content: contentString
+          });
+          // info.open(map, marker);
           google.maps.event.addListener(marker, 'mouseover', function() {
             info.open(map, marker);
           });
@@ -579,8 +581,8 @@
       var mapOptions = {
         zoom: 17,
         center: {
-          lat: 29.456607,
-          lng: -98.469384
+          lat: 29.458050,
+          lng: -98.469432
         },
         mapTypeId: google.maps.MapTypeId.ROADMAP
       };
